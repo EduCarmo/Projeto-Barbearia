@@ -16,7 +16,7 @@ const profissionais: Profissional[] = [
     descricao:
       "Quando o assunto é barba, ninguém faz melhor que o Beto Brutal! Suas lâminas afiadas são lendárias e seu estilo é inconfudível. Para um visual marcante e robusto, ele é o seu homem!",
     imagemURL: "/profissionais/profissional-2.jpg",
-    avaliacao: 5,
+    avaliacao: 4.5,
     qtdAvaliacoes: 39,
   },
   {
@@ -34,7 +34,7 @@ const profissionais: Profissional[] = [
     descricao:
       "Sérgio é conhecido por sua técnica impecável e estilo único. Com sua serra (ou melhor, tesoura) em mãos, ele cria visuais que impressionam. Barba bem feita é com ele memso.",
     imagemURL: "/profissionais/profissional-4.jpg",
-    avaliacao: 5,
+    avaliacao: 4.5,
     qtdAvaliacoes: 29,
   },
   {
@@ -43,7 +43,7 @@ const profissionais: Profissional[] = [
     descricao:
       "Para aqueles que preferem um look mais rente, Rafa é o especialista! Sua máquina raspa tudo com precisão, deixando um acabamento perfeito. Raspar é a sua arte!",
     imagemURL: "/profissionais/profissional-5.jpg",
-    avaliacao: 5,
+    avaliacao: 4.5,
     qtdAvaliacoes: 44,
   },
   {

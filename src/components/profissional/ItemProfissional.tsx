@@ -1,4 +1,5 @@
 import Profissional from "@/core/profissional/Profissional";
+import Avaliacao from "@/shared/Avaliacao";
 import {
   IconBrandInstagram,
   IconBrandLinkedin,
@@ -21,12 +22,14 @@ export default function ItemProfissional(props: ItemProfissionalProps) {
           src={profissional.imagemURL}
           fill
           alt={profissional.nome}
-          className="object-cover"
+          className="object-cover object-top"
         />
       </div>
       <div className="flex flex-col p-4 gap-5">
         <span className="text-2xl font-black">{profissional.nome}</span>
         <span className="text-sm text-zinc-400">{profissional.descricao}</span>
+
+        <Avaliacao nota={profissional.avaliacao} quantidade={profissional.qtdAvaliacoes}/>
 
         <div className="flex gap-3 text-zinc-300">
           <IconBrandYoutube stroke={1} />

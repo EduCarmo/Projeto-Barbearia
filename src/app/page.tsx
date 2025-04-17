@@ -1,7 +1,14 @@
+import NossosServicos from "@/components/servico/NossosServicos";
+import ItemServico from "../components/servico/ItemServico";
+import NossosProfissionais from "@/components/profissional/NossosProfissionais";
+
+
 export default function Landing() {
   return (
-   <div className="container bg-red-500">
-      Langind Page
+   <div className="flex flex-col gap-10 flex-colcontainer">
+      <h1 className="text-6xl">Landing Page</h1>
+      <NossosServicos />
+      <NossosProfissionais />
    </div>
   );
 }

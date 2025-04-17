@@ -8,7 +8,7 @@ const servicos: Servico[] = [
       "Venha receber um corte de Viking, com lâmina na pele e estilo de guerreiro. Saia pronto para enfrentar qualquer batalha com um visual que impõe respeito",
     preco: 55,
     qtdSlots: 3,
-    imagemURL: "/servico/corte-de-cabelo.jpg",
+    imagemURL: "/servicos/corte-de-cabelo.jpg",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const servicos: Servico[] = [
       "Venha dar um trato na sua barba de lenhador, com aparo preciso e estilo de macho raiz. Saia com uma barba que impõe respeito e faz tremer até árvores",
     preco: 45,
     qtdSlots: 2,
-    imagemURL: "/servico/corte-de-barba.jpg",
+    imagemURL: "/servicos/corte-de-barba.jpg",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const servicos: Servico[] = [
       "Venha transformar suas patas de urso em garras de lobo. Nosso serviço de Manicure & Pedicure para homens é tão bruto quanto você, mas com um toque de classe",
     preco: 40,
     qtdSlots: 2,
-    imagemURL: "/servico/manicure-pedicure.jpg",
+    imagemURL: "/servicos/manicure-pedicure.jpg",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const servicos: Servico[] = [
       "Nosso combo Alpha inclui um corte de cabelo de Viking, uma barba de lenhador e manicure & pedicure de gladiador. Saia pronto para enfrentar qualquer batalha com estilo e unhas afiadas.",
     preco: 95,
     qtdSlots: 3,
-    imagemURL: "/servico/combo.jpg",
+    imagemURL: "/servicos/combo.jpg",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const servicos: Servico[] = [
       "Transforme seu pequeno aventureiro em um mini caçador, com um corte cheio de atitudes e estilos. Cabelo afiado como uma guitarra e maneiro como Harley.",
     preco: 60,
     qtdSlots: 2,
-    imagemURL: "/servico/corte-infantil.jpg",
+    imagemURL: "/servicos/corte-infantil.jpg",
   },
   {
     id: 6,
@@ -53,6 +53,8 @@ const servicos: Servico[] = [
       "Prepare-se para o grande dia com um tratamento digno de um verdadeiro guerreiro da estrada. Corte de cabelo afiado, barba de lenhador e manicure de motoqueiro, tudo enquanto você relaxa ao com de rock pesado.",
     preco: 189,
     qtdSlots: 4,
-    imagemURL: "/servico/dia-de-noivo.jpg",
+    imagemURL: "/servicos/dia-de-noivo.jpg",
   },
 ];
+
+export default servicos

@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Landing() {
   return (
    <div>
-      Sistema Barbearia
+      Langind Page
    </div>
   );
 }

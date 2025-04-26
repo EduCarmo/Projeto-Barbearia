@@ -1,7 +1,7 @@
 import servicos from "@/data/contants/servicos";
 import ItemServico from "./ItemServico";
 import Servico from "@/core/servico/Servico";
-import TituloSecao from "@/shared/TituloSecao";
+import TituloSecao from "@/components/shared/TituloSecao";
 
 export default function NossosServicos() {
   return (

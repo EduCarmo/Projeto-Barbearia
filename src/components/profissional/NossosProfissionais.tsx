@@ -1,6 +1,6 @@
 import profissionais from "@/data/contants/profissional";
 import ItemProfissional from "./ItemProfissional";
-import TituloSecao from "@/shared/TituloSecao";
+import TituloSecao from "@/components/shared/TituloSecao";
 
 export default function NossosProfissionais() {
   return (

@@ -1,5 +1,5 @@
 import Profissional from "@/core/profissional/Profissional";
-import Avaliacao from "@/shared/Avaliacao";
+import Avaliacao from "@/components/shared/Avaliacao";
 import {
   IconBrandInstagram,
   IconBrandLinkedin,

@@ -3,6 +3,7 @@ import NossosProfissionais from "@/components/profissional/NossosProfissionais";
 import SecaoBackground from "@/components/shared/SecaoBackground";
 import Rodape from "@/components/shared/Rodape";
 import Slogan from "@/components/leading/Slogan";
+import NossosClientes from "@/components/cliente/NossosClientes";
 
 export default function Landing() {
   return (
@@ -13,6 +14,9 @@ export default function Landing() {
       </SecaoBackground>
       <SecaoBackground imagem="/banners/profissionais.webp">
         <NossosProfissionais />
+      </SecaoBackground>
+      <SecaoBackground imagem="/banners/clientes.webp">
+        <NossosClientes />
       </SecaoBackground>
       <Rodape />
     </div>
